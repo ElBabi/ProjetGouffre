@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/main"
+android:weightSum="120"
+android:orientation="vertical"
+tools:context="com.example.mperson.projetjeu.Game">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="200"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/titrej"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/fondrouge"
+            android:text="Noms des joueurs"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/buttde"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/de"
+            />
+
+        <TextView
+            android:id="@+id/aff1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:background="@drawable/fondrouge"
+            android:text="Pion"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/buttinterro"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:background="@drawable/interro"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:background="@drawable/fondboutton"
+        android:weightSum="200">
+
+        <ListView
+            android:id="@+id/lv1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/fondboutton">
+
+        </ListView>
+
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/fondboutton"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        //créer mes pions en image
+
+        <ImageView
+            android:id="@+id/p1"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="20"
+            android:background="@drawable/pion1"
+
+            />
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="20"
+            android:src="@drawable/pion2"
+            android:translationY="30dp"
+            android:translationX="-38dp"
+            />
+
+        <ImageView
+            android:id="@+id/p3"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="20"
+            android:src="@drawable/pion3"
+            android:translationX="-38dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/p4"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="20"
+            android:src="@drawable/pion4"
+            android:translationX="-76dp"
+            android:translationY="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/p5"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="20"
+            android:src="@drawable/pion5"
+            android:translationX="-76dp"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="20"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+
+    <Button
+        android:id="@+id/butt8"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="8" />
+
+    <Button
+        android:id="@+id/butt9"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="9" />
+
+    <Button
+        android:id="@+id/butt10"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="10" />
+
+    <Button
+        android:id="@+id/butt11"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="11" />
+
+    <Button
+        android:id="@+id/butt12"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="12" />
+
+</LinearLayout>
+
+// couche horizontal touche 456
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="20"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <Button
+        android:id="@+id/butt7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="7" />
+
+    <Button
+        android:id="@+id/butt20"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="20" />
+
+    <Button
+        android:id="@+id/butt21"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="21" />
+
+    <Button
+        android:id="@+id/butt22"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="22" />
+
+    <Button
+        android:id="@+id/butt13"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="13" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="20"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <Button
+        android:id="@+id/butt6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="6" />
+
+    <Button
+        android:id="@+id/butt19"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="19" />
+
+    <Button
+        android:id="@+id/butt24"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:background="@drawable/mort"
+        android:text="24"
+        android:textColor="#cc0000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/butt23"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="23" />
+
+    <Button
+        android:id="@+id/butt14"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="14" />
+
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="20"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <Button
+        android:id="@+id/butt5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="5" />
+
+    <Button
+        android:id="@+id/butt18"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="18" />
+
+    <Button
+        android:id="@+id/butt17"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="17" />
+
+    <Button
+        android:id="@+id/butt16"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="16" />
+
+    <Button
+        android:id="@+id/butt15"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+
+        android:text="15" />
+
+
+</LinearLayout>
+
+// couche horizontal touche 123
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/butt4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+
+            android:text="4" />
+
+        <Button
+            android:id="@+id/butt3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+
+            android:text="3" />
+
+        <Button
+            android:id="@+id/butt2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+
+            android:text="2" />
+
+        <Button
+            android:id="@+id/butt1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:background="@android:color/background_light"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="1"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttdep"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+
+            android:text="Depart" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

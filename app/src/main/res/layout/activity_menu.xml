@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:gravity="bottom"
+android:background="@drawable/main"
+tools:context="com.example.mperson.projetjeu.Menu">
+
+    <Button
+        android:id="@+id/butflagen"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/flagen"
+     />
+
+    <Button
+        android:id="@+id/butflagfr"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/flagfr"
+      />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="20dp"
+            android:background="@drawable/fondboutton"
+            android:gravity="center"
+
+            android:text="Joueurs" />
+
+        <EditText
+            android:id="@+id/nomj1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="@android:color/holo_blue_bright"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="___________________________"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/nomj2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="@android:color/holo_blue_bright"
+
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:hint="___________________________"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+
+        <EditText
+            android:id="@+id/nomj3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="@android:color/holo_blue_bright"
+
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="___________________________"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+
+        <EditText
+            android:id="@+id/nomj4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="@android:color/holo_blue_bright"
+
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="___________________________"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+
+        <EditText
+            android:id="@+id/nomj5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="@android:color/holo_blue_bright"
+            android:textAlignment="center"
+
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="___________________________"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+
+        <Button
+            android:id="@+id/butplay"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginVertical="50dp"
+            android:background="@drawable/fond"
+            android:text="Jouer"
+            android:textColor="#ffffffff"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
